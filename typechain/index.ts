@@ -2,14 +2,12 @@
 /* tslint:disable */
 /* eslint-disable */
 export type { OwnableUpgradeable } from "./OwnableUpgradeable";
-export type { Pausable } from "./Pausable";
 export type { MyDate } from "./MyDate";
 export type { TokenAvgPrice1 } from "./TokenAvgPrice1";
 export type { TokenAvgPrice2 } from "./TokenAvgPrice2";
 export type { TokenAvgPrice3 } from "./TokenAvgPrice3";
 
 export { OwnableUpgradeable__factory } from "./factories/OwnableUpgradeable__factory";
-export { Pausable__factory } from "./factories/Pausable__factory";
 export { MyDate__factory } from "./factories/MyDate__factory";
 export { TokenAvgPrice1__factory } from "./factories/TokenAvgPrice1__factory";
 export { TokenAvgPrice2__factory } from "./factories/TokenAvgPrice2__factory";

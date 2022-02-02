@@ -17,10 +17,6 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.OwnableUpgradeable__factory>;
     getContractFactory(
-      name: "Pausable",
-      signerOrOptions?: ethers.Signer | FactoryOptions
-    ): Promise<Contracts.Pausable__factory>;
-    getContractFactory(
       name: "MyDate",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.MyDate__factory>;
@@ -42,11 +38,6 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.OwnableUpgradeable>;
-    getContractAt(
-      name: "Pausable",
-      address: string,
-      signer?: ethers.Signer
-    ): Promise<Contracts.Pausable>;
     getContractAt(
       name: "MyDate",
       address: string,
